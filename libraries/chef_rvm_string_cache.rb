@@ -29,7 +29,7 @@ class Chef
 
     class StringCache
       class << self
-        include Chef::Mixin::Command
+        include Chef::Mixin::ShellOut
         include Chef::RVM::ShellHelpers
       end
 
