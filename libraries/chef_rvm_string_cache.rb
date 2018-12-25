@@ -19,7 +19,7 @@
 # limitations under the License.
 #
 
-require 'chef/mixin/command'
+require 'chef/mixin/shell_out'
 
 class Chef
   module RVM
